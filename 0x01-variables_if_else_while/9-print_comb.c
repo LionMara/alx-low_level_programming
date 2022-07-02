@@ -7,9 +7,11 @@
 int main(void)
 {
 int digi;
-for (digi = 48; digi <= 57; digi++)
+digi = 48;
+while (digi <= 57)
 {
 putchar(digi);
+digi++;
 putchar(',');
 }
 putchar('\n');
