@@ -19,7 +19,7 @@ digi = n % 10;
 if (digi > 5)
 printf("Last digit of %d is %d and is greater than 5\n", n, digi);
 if (digi == 0)
-printf("Last digit of %d is %d and is 0 and is 0\n", n, digi);
+printf("Last digit of %d is %d and is 0\n", n, digi);
 if (digi < 6  && digi != 0)
 printf("Last digit of %d is %d and is less than 6 and not 0\n", n, digi);
 return (0);
