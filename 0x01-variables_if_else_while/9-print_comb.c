@@ -11,8 +11,13 @@ digi = 48;
 while (digi <= 57)
 {
 putchar(digi);
-digi++;
+if (digi == 57)
+break;
 putchar(',');
+putchar (' ');
+/*if (digi == 57)
+  break;*/
+digi ++;
 }
 putchar('\n');
 return (0);
