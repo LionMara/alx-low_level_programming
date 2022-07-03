@@ -15,9 +15,7 @@ if (digi == 57)
 break;
 putchar(',');
 putchar (' ');
-/*if (digi == 57)
-  break;*/
-digi ++;
+digi++;
 }
 putchar('\n');
 return (0);
