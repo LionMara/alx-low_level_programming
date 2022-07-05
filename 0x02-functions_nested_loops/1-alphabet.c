@@ -1,13 +1,16 @@
-#include <stdio.h>
-#include <unistd.h>
+
 #include "main.h"
 /**
- * main - check the code
+ * print_alphabet - prints a-z
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
-return (0);
+int ch;
+for (ch = 97; ch < 172; ch++)
+{
+_putchar(ch);
+}
+_putchar('\n');
 }
