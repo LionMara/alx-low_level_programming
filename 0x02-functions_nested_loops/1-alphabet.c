@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
  * print_alphabet - prints a-z
@@ -7,10 +6,13 @@
  */
 void print_alphabet(void)
 {
-int ch;
-for (ch = 97; ch < 172; ch++)
+char c;
+/* _putchar('a');*/
+ c = 'a';
+while (c <= 'z')
 {
-_putchar(ch);
-}
+_putchar(c);
+ c++;
+ }
 _putchar('\n');
 }
