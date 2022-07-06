@@ -14,6 +14,7 @@ printf("%d", n);
 if (n != 98)
 {
 printf(",");
+printf(" ");
 }
 n--;
 }
@@ -26,6 +27,7 @@ printf("%d", n);
 if (n != 98)
 {
 printf(",");
+printf(" ");
 }
 n++;
 }
