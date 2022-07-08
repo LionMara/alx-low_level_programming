@@ -1,4 +1,4 @@
-29a3e23c39da9d9af2b8#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - causes an infinite loop
