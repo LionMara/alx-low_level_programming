@@ -4,7 +4,7 @@
 * [Setup](#setup)
 
 ## General info
-This project is about pointers and arrays and strings. 
+This project is about pointers and arrays and strings.
 
 ## Technologies
 Project is created with:
