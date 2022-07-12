@@ -6,7 +6,7 @@
  * Return: nothing to be returned
  */
 
-vod rev_string(char *s)
+void rev_string(char *s)
 {
 int len, i, half;
 char temp;
