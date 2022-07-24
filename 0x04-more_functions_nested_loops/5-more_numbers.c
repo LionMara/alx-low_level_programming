@@ -1,14 +1,14 @@
 #include "main.h"
 /**
  * more_numbers - prints numbers 0 - 14
- *
+ * Return: nothing
  */
 
 void more_numbers(void)
 {
 int c;
 int i;
-for (i = 0; i <= 10; i++)
+for (i = 0; i < 10; i++)
 {
 c = 0;
 while (c <= 14)
