@@ -11,7 +11,7 @@
 
 int main(int argc, char **argv)
 {
-if (argc > 3|| argc < 3)
+if (argc > 3 || argc < 3)
 {
 printf("Error\n");
 return (1);
@@ -21,8 +21,7 @@ else
 int n, m;
 n = atoi(argv[1]);
 m = atoi(argv[2]);
-printf("%d\n", n*m);
+printf("%d\n", n *m);
 }
 return (0);
 }
-  
