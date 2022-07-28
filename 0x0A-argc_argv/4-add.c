@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <stdbool.h>
+#include <ctype.h>
 
 /**
  * main - adds inputs
@@ -17,10 +17,10 @@ if (argc < 1 )
 {
 printf("0\n");
 }
-if (atoi(argv[i]) == false)
+/* if (!(isdigit(argv[i])))
 {
-printf("Error\n");
-}
+ printf("Error\n");
+ }*/
 else
 {
 int i;
