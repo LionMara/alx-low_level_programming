@@ -20,6 +20,11 @@ The project is an illustration of structures in C
 struct point p = {1,2};
 struct point p = {.y = 2, .x =1};
 struct point q = p;
+/**
+ * struct point - struxt
+ * @x: int
+ * @y: int
+ */
 struct point {
        int x;
        int y;
