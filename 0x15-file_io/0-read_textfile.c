@@ -32,8 +32,11 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	writecount = write(STDOUT_FILENO, buf, readcount);
-	if(writecount < 0)
+	if(writecount < 0 || readcount != wordcount)
 		return (0);
+
+	free(buffer);
+	close(fd);
 
 	return (readcount);
 }
