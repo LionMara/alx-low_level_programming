@@ -10,7 +10,7 @@
 int create_file(const char *filename, char *text_content)
 {
 	int fd, len, writecount;
-	char *buf = malloc(sizeof (text_content));
+	char *buf = malloc(sizeof(text_content));
 
 	buf = text_content;
 
