@@ -12,11 +12,13 @@
 
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-	dlistint_t *ptr = (dlistint_t*)malloc(sizeof(dlistint_t)), *tmp;
+	dlistint_t *ptr = (dlistint_t *)malloc(sizeof(dlistint_t)), *tmp;
+
 	tmp = *head;
+
 	if (ptr == NULL)
 	{
-		exit(1);
+		return (NULL);
 	}
 	ptr->n = n;
 	ptr->prev = NULL;
