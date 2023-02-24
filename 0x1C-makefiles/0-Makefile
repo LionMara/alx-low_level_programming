@@ -1,7 +1,4 @@
 #makefile one
 
-all: main.o school.o
-	gcc main.o school.o -o school
-
-clean:
-	rm *.o
+all:
+	gcc main.c school.c -o school
