@@ -1,15 +1,23 @@
 #!/usr/bin/python3
 
 ''' 5-island_perimeter.py'''
+
+
 def island_perimeter(grid):
     '''A function that returns perimeter of an island'''
 
-    j = 0
-    for cells in grid:
-        for cell in cells:
-            if cell:
-                j+=1
+    edges = 0
+    size = 0
+    width = len(grid[0])
+    height = len(grid)
 
-    perimeter = 4*j - (2*j - 2)
+    for cells in range(height):
+        for cell in range(width):
+            if grid[cells][cell] == 1:
+                size += 1
+                if (cells > 0 and grid[cells][cell - 1] == 1):
+                    edges += 1
+                if (cells > 0 and grid[cells - 1][cell] == 1):
+                    edges += 1
 
-    return perimeter
+    return size * 4 - edges * 2
